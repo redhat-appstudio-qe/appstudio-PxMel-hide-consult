@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/push-pyxis-jftl-tenant/appstudio/devfile-sample-python-basic-c0lu@sha256:f81e01deeae95a486cf2bd655dd64c9170741f55c23039b4f17b02d326660ea7
+      - image: quay.io/redhat-appstudio-qe/push-pyxis-jftl-tenant/appstudio/devfile-sample-python-basic-c0lu@sha256:672a08d4b3aa75ea0d6b12b090d5c50618936263ab054c917460181e79b0598e
         name: my-python
         resources: {}
 status: {}
