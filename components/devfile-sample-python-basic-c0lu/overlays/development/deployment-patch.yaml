@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-c0lu
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/push-pyxis-jftl-tenant/appstudio/devfile-sample-python-basic-c0lu@sha256:f81e01deeae95a486cf2bd655dd64c9170741f55c23039b4f17b02d326660ea7
+        name: my-python
+        resources: {}
+status: {}
